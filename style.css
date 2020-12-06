@@ -25,7 +25,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 footer{
@@ -54,7 +53,7 @@ p {
   position:relative;
   width: 100%;
   height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
+  margin-bottom:-7px; 
   min-height:100px;
   max-height:150px;
 }
@@ -95,7 +94,7 @@ p {
     transform: translate3d(85px,0,0);
   }
 }
-/*Shrinking for mobile*/
+
 @media (max-width: 768px) {
   .waves {
     height:40px;
