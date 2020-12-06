@@ -1,15 +1,13 @@
 
-
-/*resets*/
 * {
     padding:0;
     margin:0;
 }
 
-/*basic layout*/
+
 .material-contact {
     width:400px;
-    max-width:90%;
+    max-width:70%;
     height:auto;
     padding:50px 50px 30px 50px;
     box-sizing:border-box;
@@ -23,7 +21,7 @@
     border-radius:5px;
 }
 
-/*header*/
+
 .animate-in-image {
     max-width: 78%;
     border-radius:100%;
@@ -88,7 +86,7 @@
     border:1px solid #ddd;
 }
 
-/*info section*/
+
 .material-contact p {
     width: 100%;
     height: auto;
@@ -140,7 +138,7 @@
     color:#fff;
 }
 
-/*animation*/
+
 .animate-in-01 {
     animation:animateIn 1s ease;
     -webkit-animation:animateIn 1s ease;
@@ -247,7 +245,7 @@ body {
 
 .phone {
     line-height: 2;
-    width: 20pc;
+    width: 100%;
     text-align: center;
 }
 .phone-logo {
@@ -261,7 +259,7 @@ body {
     font-family: "Sofia";
 }
 .git {
-    width: 20pc;
+    width: 100%;
 }
 .github {
    max-width: 21%;
@@ -270,7 +268,7 @@ body {
 }
 .mail {
     line-height: 1;
-    width: 20pc;
+    width: 100%;
     text-align: center;
 }
 .mail-logo {
@@ -282,4 +280,3 @@ body {
     color: black;
   
 }
-
