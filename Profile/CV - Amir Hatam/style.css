@@ -1,0 +1,134 @@
+*{
+    margin: auto;
+    font-family: "Josefin Sans";
+}
+.coloré {
+    color: white;
+    /* background-color: #39CCCC; */
+    background-color: #FF851B;
+}
+nav{
+    display: flex;
+}
+.h2-nav {
+    margin: 2% 2% 2% 2%;
+    font-size: 5vmin;
+}
+.ul-nav{
+    display: flex;
+    margin-left: 1%;
+    padding-left: 0px;
+}
+.li-nav{
+    margin: 4%;
+    list-style: none;
+}
+.a-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 3.5vmin;
+}
+
+.div-header {
+    width: 73%;
+    text-align: center;
+    padding: 3%;
+}
+.h1-header {
+    padding: 1%;
+    font-weight: lighter;
+    font-size: -webkit-xxx-large;
+}
+.h2-header {
+    padding: 1%;
+    font-weight: lighter;
+}
+.h3-header {
+    padding: 1%;
+    font-weight: lighter;
+    margin-right: 2%;
+}
+.img-header {
+    max-width: 25%;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+
+
+
+#bars {
+    margin: 2em auto;
+    max-width: 960px;
+    overflow: hidden;
+}
+  
+.bar {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+  
+.bar h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+  
+.bar-circle {
+    display: block;
+    margin: 0.7em auto;
+}
+
+
+.div-xp{
+    padding: 8% 20% 7% 22%;
+    line-height: 2;
+}
+.h3-div-xp {
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 4vmin;
+}
+.aside-year {
+    float: right;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+.h4-coach  {
+    font-size: 3vmin;
+    margin-bottom: 3%;
+}
+
+.xp-info{
+    margin-bottom: 5%;
+    border-bottom: 2px dotted white;
+    padding-bottom: 3%;
+}
+#border-formation{
+    border-color: rgb(0, 0, 0);
+   
+}
+
+
+
+.icon{
+    padding: 20px;
+    text-align: center;
+}
+.a-footer{
+    padding-right: 10px;
+}
+.mail-img {
+    max-width: 4%;
+}
+.phone-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    max-width: 3.4%;
+}
+.git-img{
+    max-width: 4.4%;
+}
+

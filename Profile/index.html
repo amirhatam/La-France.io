@@ -7,35 +7,24 @@
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
 
 
-  <video autoplay muted loop id="myVideo">
-    <source src="Beach.mp4" type="video/mp4">
+  <video id="myVideo" autoplay muted loop>
+    <source src="./media/Beach.mp4" type="video/mp4">
   </video>
-  <script>
-    var video = document.getElementById("myVideo");
-    var btn = document.getElementById("myBtn");
-  </script>
-
-  
-
 
 
   <div class="material-contact animate-in-card">
 
 
-    <img class="animate-in-image" src="./20201025_104646.png">
+    <img class="animate-in-image" src="./media/20201025_104646.png">
 
     <h1 class="animate-in-01">Amir Hatam</h1>
 
     <h2 class="animate-in-02">Développeur Web</h2>
-
-    <h4 class="animate-in-04"><i class='fas fa-map-marker-alt'></i> Paris</h4>
-
 
     <hr class="animate-in-03">
 
@@ -46,25 +35,14 @@
     <hr class="animate-in-03">
 
     <div class="contact">
-
-      <div class="git">
-        <a href="https://github.com/amirhatam" target="_blank"><img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="github" alt=""></a>
-
-      </div>
-      <br><br>
-      <div class="phone">
-        <img class="phone-logo"
-          src="https://p7.hiclipart.com/preview/826/886/420/iphone-computer-icons-telephone-call-phone-call-icon-thumbnail.jpg">
-        <a href="tel:07 68 57 35 81" class="phone-no">07 68 57 35 81</a>
-
-      </div>
-      <br>
-      <div class="mail">
-        <img class="mail-logo" src="https://www.google.com/gmail/about/static/images/logo-gmail.png?cache=1adba63">
-        <a href="mailto:amirhatam136@gmail.com" onclick="" class="gmail">amirhatam136@gmail.com</a>
-
-      </div>
+      
+      <a href="https://github.com/amirhatam" class="git" target="_blank"><img
+          src="./media/GitHub-Mark.png" class="github" title="GitHub" alt=""></a>
+      <a href="mailto:amirhatam136@gmail.com" onclick="" class="gmail" class="mail" title="amirhatam136@gmail.com"><img
+          class="mail-logo" src="./media/logo-gmail.png"></a>
+      <a href="tel:07 68 57 35 81" class="phone" class="phone-no" title="07 68 57 35 81"><img class="phone-logo"
+          src="./media/phone-logo.jpg"></a>
+          <a href="./CV - Amir Hatam/index.html" title="CV" class="a-cv" target="_blank"><img src="./media/CV.jpg" class="cv" alt=""></a>
 
     </div>
 </body>

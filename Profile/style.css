@@ -27,10 +27,8 @@
     border-radius:100%;
 }
 .material-contact img {
-   
-    display:block;
-    margin:0 auto;
-   
+
+    margin:0 auto;   
 }
 .material-contact h1 {
     width:100%;
@@ -157,14 +155,7 @@
     -webkit-animation-delay:.4s;
     opacity:0;
 }
-.animate-in-04 {
-    animation:animateIn 1s ease forwards;
-    animation-delay:.5s;
-    -webkit-animation:animateIn 1s ease forwards;
-    -webkit-animation-delay:.5s;
-    opacity:0;
-    
-}
+
 
 
 
@@ -208,6 +199,7 @@
 .animate-in-image {
     animation:animateInImage 1s ease;
     -webkit-animation:animateInImage 1s ease;
+    display: block;
 }
 @keyframes animateInImage {
     0%{
@@ -247,10 +239,12 @@ body {
     line-height: 2;
     width: 100%;
     text-align: center;
+    
 }
 .phone-logo {
-    max-width: 15%;
+    max-width: 17%;
     border-radius:100%;
+    padding-bottom: 1%;
 }
 .phone-no {
     text-decoration: none;
@@ -272,11 +266,24 @@ body {
     text-align: center;
 }
 .mail-logo {
-        max-width: 17%;
+        max-width: 19%;
         border-radius:100%;
 }
 .gmail {
     text-decoration: none;
     color: black;
   
+}
+.cv {
+    max-width: 19%;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+.a-cv{
+    margin-right: 0;
+}
+
+a{
+    margin-right: 5.2%;
 }
