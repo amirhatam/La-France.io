@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Josefin Sans";
+    src: url('./fonts/JosefinSans-SemiBold.ttf') format('ttf');
+    src: url('./fonts/JosefinSans-Light.ttf') format('ttf');
+}
 *{
     margin: auto;
     font-family: "Josefin Sans";

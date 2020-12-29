@@ -1,7 +1,11 @@
-
+@font-face {
+    font-family: 'Sofia';
+    src: url(./Font/Sofia.woff2) format('woff2');
+}
 * {
     padding:0;
     margin:0;
+    font-family: 'Sofia';
 }
 
 
@@ -35,8 +39,6 @@
     height:auto;
     padding:15px 0 5px 0;
     display:block;
-    
-    font-family:'Roboto', sans-serif;
     font-size:1.9rem;
     font-weight:300;
     line-height:1em;
@@ -287,3 +289,6 @@ body {
 a{
     margin-right: 4%;
 }
+
+
+
