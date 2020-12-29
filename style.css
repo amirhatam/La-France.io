@@ -29,7 +29,6 @@ nav {
 }
 
 
-
 img {
   max-width: 100%;
   display: block;
@@ -75,8 +74,6 @@ p {
   text-align:center;
 }
 
-
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
@@ -114,9 +111,6 @@ p {
   
 }
 
-
-
-
 a {
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -137,7 +131,6 @@ p:nth-child(1) a:hover {
   -moz-animation: none;
   animation: none;
 }
-/*glow*/
 @keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFF, 0 0 70px #FFF, 0 0 80px #FFF, 0 0 100px #FFF, 0 0 150px #FFF;
@@ -147,8 +140,6 @@ p:nth-child(1) a:hover {
   }
 }
 
-  /*glow for webkit*/
-  
   @-webkit-keyframes neon1 {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFF, 0 0 70px #FFF, 0 0 80px #FFF, 0 0 100px #FFF, 0 0 150px #FFF;
@@ -158,9 +149,7 @@ p:nth-child(1) a:hover {
       }
     }
   
- 
-  /*glow for mozilla*/
-  
+
   @-moz-keyframes neon1 {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFF, 0 0 70px #FFF, 0 0 80px #FFF, 0 0 100px #FFF, 0 0 150px #FFF;
