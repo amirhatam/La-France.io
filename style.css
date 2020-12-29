@@ -153,6 +153,7 @@ p:nth-child(1) a:hover {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFF, 0 0 35px #FFF, 0 0 40px #FFF, 0 0 50px #FFF, 0 0 75px #FFF;
     }
   }
+
 footer{
   position: absolute;
   width: 100%;
