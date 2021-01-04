@@ -7,6 +7,9 @@
 
     font-family: "Josefin Sans";
 }
+body{
+    margin: 0px;
+}
 header {
     text-align: center;
 }

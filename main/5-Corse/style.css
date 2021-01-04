@@ -8,25 +8,38 @@
     font-family: "Josefin Sans";
 }
 
-
-
-
-.logo {
-    max-width: 15%;
-    padding: 25px;
+body{
+    margin: 0px;
 }
-header span {
-    font-size: 4em;
+header{
+    text-align: center;
+}
+.div-logo{
+    display: inline-table;
+    position: relative;
+    width: 30vmax;
+    height: 16vmax;
+}
+.img-logo {
+    max-width: 15vmax;
+    padding: 15px;
+    position: absolute;
+    left: 0vmax;
+}
+.span-logo {
+    font-size: 5vmax;
     font-weight: bolder;
     position: absolute;
-    left: 240px;
-    top: 99px;
+    left: 14.4vmax;
+    top: 5.5vmax;
 }
-header h2 {
+.h2-logo {
+    display: inline-block;
     color: #cacfe2;
     position: absolute;
-    left: 247px;
-    top: 57px;
+    left: 18.2vmax;
+    top: 4vmax;
+    font-size: 1.5vmax;
 }
 header img {
     max-width: 100%;

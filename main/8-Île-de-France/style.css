@@ -7,26 +7,38 @@
 
     font-family: "Josefin Sans";
 }
+body{
+    margin: 0px;
+}
 header {
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-.logo {
-    width: 10%;
-    padding: 20px;
+.div-logo{
+    display: inline-table;
+    position: relative;
+    width: 35vmax;
+    height: 12vmax;
 }
-header span {
+.img-logo {
+    width: 11vmax;
+    padding: 16px;
+    position: absolute;
+    left: 0vmax;
+}
+.span-logo {
     font-size: 4vmax;
     color: #e42313;
     position: absolute;
-    top: 87px;
-    left: 170px;
+    top: 6.4vmax;
+    left: 11vmax;
 }
-header h3 {
+.h3-logo {
+    display: inline-block;
     font-size: 3vmax;
     color: #2a327b;
     position: absolute;
-    top: -15px;
-    left: 171px;
+    top: 0vmax;
+    left: 13vmax;
 }
 .paris {
     max-width: 100%;

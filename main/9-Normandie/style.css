@@ -7,13 +7,37 @@
 
     font-family: "Josefin Sans";
 }
-
-.logo{
+body{
+    margin: 0px;
+}
+header{
+    text-align: center;
+}
+.div-logo {
+    position: relative;
+    display: inline-table;
+    width: 45vmax;
+    height: 14vmax;
+    margin-bottom: 10px;
+}
+.img-logo{
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: 15px;
+    width: 30%;
+}
+.span-logo {
+    position: absolute;
+    top: 4vmax;
+    left: 14vmax;
+    font-size: 3.8vmax;
+}
+.h1-logo {
+    position: absolute;
+    left: 14vmax;
+    top: 5vmax;
+    font-size: 4.6vmax;
 }
 .mont {
     max-width: 100%;

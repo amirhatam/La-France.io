@@ -7,31 +7,39 @@
 
     font-family: "Josefin Sans";
 }
-
-
-
-.logo {
-    max-width: 15%;
-    height: auto;
+body{
+    margin: 0px;
 }
-header span {
-    font-size: 3em;
+
+.div-logo{
+    position: relative;
+    width: 50vmax;
+    height: 15vmax;
+}
+.img-logo {
+    max-width: 15vmax;
+    height: auto;
+    margin: 10px;
+}
+.header-span {
+    font-size: 3vmax;
     font-weight: bolder;
     position: absolute;
-    left: 230px;
-    top: 100px;
+    left: 15vmax;
+    top: 7.5vmax;
     color: #1991ce;
 }
-header h3 {
+.header-h3 {
     color: #cacfe2;
     position: absolute;
-    left: 231px;
-    top: 59px;
+    display: inline-block;
+    left: 15vmax;
+    top: 4vmax;
+    font-size: 1.3vmax;
 }
 header img {
     width: 100%;
-    height: auto;
-    max-height: 38.5rem;
+    display: block;
 }
 
 

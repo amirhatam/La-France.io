@@ -7,12 +7,42 @@
 
     font-family: "Josefin Sans";
 }
-
-
-.logo { 
-    width: 35%;
-    padding: 15px;
+body{
+    margin: 0px;
 }
+header{
+    text-align: center;
+}
+.div-logo {
+    position: relative;
+    display: inline-table;
+    width: 40vmax;
+    height: 15vmax;
+}
+.img-logo { 
+    position: absolute;
+    left: 0px;
+    width: 20%;
+    padding: 10px;
+}
+.span-logo {
+    position: absolute;
+    top: 3vmax;
+    left: 9vmax;
+    font-size: 2vmax;
+    color: #71147a;
+    font-weight: bold;
+}
+.h1-logo {
+    display: inline-block;
+    position: absolute;
+    top: 6vmax;
+    left: 9vmax;
+    font-size: 3vmax;
+    color: #1260b3;
+    margin: 0;
+}
+
 .angers {
     max-width: 100%;
 }

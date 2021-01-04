@@ -8,12 +8,50 @@
 
     font-family: "Josefin Sans";
 }
-.header {
+body{
+    margin: 0px;
+}
+header {
     text-align: center;
 }
-.logo {
-    width: 30%;
-    border-radius: 30px;
+.div-logo{
+    display: inline-table;
+    position: relative;
+    width: 40vmax;
+    height: 16vmax;
+    background-color: #d50016;
+    color: white;
+    border: 1px solid #d50016;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.img-logo {
+    position: absolute;
+    width: 37%;
+    left: 0px;
+    padding: 10px;
+}
+.h3-logo {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 3.8vmax;
+    left: 14vmax;
+    font-size: 2vmax;
+}
+.h1-logo {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 6.3vmax;
+    left: 15.5vmax;
+    font-size: 4vmax;
+}
+.span-logo {
+    position: absolute;
+    top: 10.3vmax;
+    left: 14vmax;
+    font-size: 1.5vmax;
 }
 
 .toul {

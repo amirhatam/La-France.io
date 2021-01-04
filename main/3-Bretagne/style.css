@@ -7,25 +7,22 @@
 
     font-family: "Josefin Sans";
 }
-
+body{
+    margin: 0px;
+}
 .div-header {
     text-align: center;
 }
 .logo {
-    border-radius: 25px;
+    border-radius: 55px;
     max-width: 22vmax;
     margin: 1vmax;
+    padding: 20px 20px 35px;
 }
-.ville{
-    font-size: 5em;
-    font-weight: bolder;
-}
-.region-span {
-    color: #cacfe2;
 
-}
-header img {
+.landscape {
     max-width: 100%;
+   
 }
 
 

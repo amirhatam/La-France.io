@@ -7,7 +7,9 @@
 
     font-family: "Josefin Sans";
 }
-
+body{
+    margin: 0px;
+}
 
 .logo {
     display: block;
@@ -16,6 +18,7 @@
 }
 .canal {
     max-width: 100%;
+    display: block;
 }
 
 

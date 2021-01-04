@@ -1,25 +1,28 @@
-@font-face{
+@font-face {
     font-family: "Josefin Sans";
     src: url('./fonts/JosefinSans-SemiBold.ttf') format('ttf');
     src: url('./fonts/JosefinSans-Light.ttf') format('ttf');
 }
-*{
 
+* {
     font-family: "Josefin Sans";
+}
+
+body {
+    margin: 0px;
 }
 
 .logo {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 20px 20px 35px;
 }
+
 .strasbourg {
     max-width: 100%;
 }
-
-
-
 
 .tab {
     text-align: center;
@@ -29,19 +32,22 @@
     padding-top: 70px;
     position: relative;
 }
+
 .villes {
     text-align: center;
 }
+
 .city {
     display: inline-block;
     margin-right: 2vmax;
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
 .box {
     background: aliceblue;
     border-radius: 8px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
     display: inline-block;
     overflow: hidden;
     position: relative;
@@ -50,15 +56,13 @@
     height: 170px;
 }
 
-
-
-
 .content {
     text-align: center;
     padding: 2vmax;
     line-height: 2;
     margin-bottom: 10vmax;
 }
+
 nav {
     height: 100%;
     width: 60%;
@@ -66,18 +70,21 @@ nav {
     margin: auto;
     background: aliceblue;
     border-radius: 8px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
     padding: 40px;
     font-size: 1vmax;
 }
+
 li {
     list-style: none;
     margin: 2%;
 }
+
 .space {
     width: 15%;
-    border-bottom: 1px solid rgba(28,28,28,0.9)
+    border-bottom: 1px solid rgba(28, 28, 28, 0.9)
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -91,28 +98,27 @@ a {
     padding: 20px;
     width: 35%;
     height: 35%;
- }
-
+}
 
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
 }
-    
+
 ::-webkit-scrollbar-track {
     border: 1px solid #aaa;
     border-radius: 10px;
 }
-    
+
 ::-webkit-scrollbar-thumb {
-    background: #aaa;  
+    background: #aaa;
     border-radius: 10px;
 }
-    
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #2793e6;  
+    background: #2793e6;
 }
- 
+
 footer {
     position: absolute;
 }
