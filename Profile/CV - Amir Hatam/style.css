@@ -123,17 +123,18 @@ nav{
     text-align: center;
 }
 .a-footer{
-    padding-right: 10px;
+    padding-right: 1%;
 }
-.mail-img {
-    max-width: 4%;
+.fa-envelope {
+    font-size: 10vmin;
+    color: white;
 }
-.phone-img {
-    border: 5px solid white;
-    border-radius: 50%;
-    max-width: 3.4%;
+.fa-phone-square {
+    font-size: 9.4vmin;
+    color: white;
 }
-.git-img{
-    max-width: 4.4%;
+.fa-github{
+    font-size: 10vmin;
+    color: white;
 }
 
