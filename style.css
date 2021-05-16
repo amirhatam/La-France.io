@@ -51,7 +51,7 @@ body {
 p {
     background-color: rgb(0, 30, 150);
     margin: 0px;
-    font-family: 'Sofia';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .waves {

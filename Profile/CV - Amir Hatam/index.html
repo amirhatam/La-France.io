@@ -1,129 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV-AmirHATAM</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
     <script src="./script.js"></script>
     <script src="./fonts/icon.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="coloré">
-        <h2 class="h2-nav">Amir Hatam</h2>
-        <ul class="ul-nav">
-            <li class="li-nav"><a href="#compétence" class="a-nav" title="compétence">Compétence</a></li>
-            <li class="li-nav"><a href="#xp" class="a-nav" title="Expériences">Expériences</a></li>
-            <li class="li-nav"><a href="#formations" class="a-nav" title="Formations">Formation</a></li>
-        </ul>
+      <h2 class="h2-nav">Amir Hatam</h2>
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a href="#compétence" class="a-nav" title="compétence">Compétence</a>
+        </li>
+        <li class="li-nav">
+          <a href="#formations" class="a-nav" title="Formations">Formation</a>
+        </li>
+        <li class="li-nav">
+          <a href="#xp" class="a-nav" title="Expériences">Expériences</a>
+        </li>
+      </ul>
     </nav>
     <header>
-        <div class="div-header">
-            <h1 class="h1-header" id="compétence" >Amir Hatam</h1>
-            <h2 class="h2-header">Développeur Web</h2>
-            <h3 class="h3-header"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Paris</h3>
-            <img src="./Photo/20201025_104646.png" class="img-header" alt="">
-        </div>
+      <div class="div-header">
+        <h1 class="h1-header" id="compétence">Amir Hatam</h1>
+        <h2 class="h2-header">Développeur Web FullStack</h2>
+        <h3 class="h3-header">
+          <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Paris
+        </h3>
+        <img src="./Photo/20201025_104646.png" class="img-header" alt="" />
+      </div>
     </header>
-    <section >
-        <div>
-            <div id="bars">
-                <div class="bar" data-percent="65">
-                  <h3>HTML</h3>
-                  <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar" data-percent="55">
-                  <h3>CSS</h3>
-                  <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar" data-percent="35">
-                  <h3>JS</h3>
-                  <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar" data-percent="20">
-                    <h3>PHP</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                  </div>
-                <div class="bar" data-percent="70">
-                  <h3>Ps</h3>
-                  <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-
-              </div>  
-
+    <section>
+      <div>
+        <div class="row" id="bars">
+          <h2 class="text-center my-5">D É V E L O P P E M E N T</h2>
+          <div class="col-3 bar" data-percent="80">
+            <h3>HTML</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-3 bar" data-percent="80">
+            <h3>CSS</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-3 bar" data-percent="50">
+            <h3>JS</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-3 bar" data-percent="15">
+            <h3>PHP</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
         </div>
+
+        <div class="row" id="bars">
+          <h2 class="text-center my-5">F R A M E W O R K S</h2>
+          <div class="col-2 bar" data-percent="50">
+            <h3>React.JS</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-2 bar" data-percent="50">
+            <h3>Material-UI</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-2 bar" data-percent="55">
+            <h3>Node.JS</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-2 bar" data-percent="60">
+            <h3>JQuery</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+          <div class="col-2 bar" data-percent="80">
+            <h3>Bootstrap</h3>
+            <canvas class="bar-circle" width="70" height="70"></canvas>
+          </div>
+        </div>
+
+        <div class="row" id="bars">
+          <div class="col-4 text-center">
+            <h2 class="text-center my-5">A U T R E</h2>
+            <div>
+              <h6>Adobe Photoshop</h6>
+              <h6>Office</h6>
+              <h6>Relation client</h6>
+              <h6>Capacité d‘adaptation</h6>
+              <h6>Travail en équipe</h6>
+              <h6>Créativité</h6>
+            </div>
+          </div>
+
+          <div class="col-4 text-center">
+            <h2 class="text-center my-5">L O I S I R</h2>
+            <div class="">
+              <div>
+                <i class="m-2 fas fa-theater-masks loisirFonts"></i>
+                <i class="m-2 fas fa-music loisirFonts"></i>
+              </div>
+
+              <div>
+                <i class="m-2 fas fa-swimmer loisirFonts"></i>
+                <i class="m-2 fas fa-biking loisirFonts"></i>
+                <i class="m-2 fas fa-running loisirFonts"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 text-center">
+            <h2 class="text-center my-5">L A N G U E</h2>
+            <div class="">
+              <h6>Persan : Langue maternelle</h6>
+              <h6>Français : B1</h6>
+              <h6>Anglais : B1</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="xp" class="coloré">
-        <div class="div-xp">
-            <h3 class="h3-div-xp">Expériences professionnelles</h3>
-            <div class="xp-info">
-               <aside class="aside-year">2019-2020</aside>
-               <h4 class="h4-coach">Coach sportif (Bénévole)</h4>
-               <p>Association JRS – Paris</p>
-            </div>
-            <div class="xp-info">
-               <aside class="aside-year">2015-2017</aside>
-               <h4 class="h4-coach">Direction de la restauration – Téhéran</h4>
-               <p>Création puis direction de Noodle house (restaurant asiatique)</p>
-            </div>
-            <div class="xp-info">
-               <aside class="aside-year">2007-2015</aside>
-               <h4 class="h4-coach">Directeur de Salle de Sports – Téhéran</h4>
-               <p>Employé puis directeur chez Omega <br>
-               <strong>Missions</strong> : <br>
-                - Organisation du planning de la salle, responsable du transfert des liquidités entre la salle de sport et la banque.<br>
-                - Responsable de la cafétéria de la salle de sport : gestion du personnel, management d’équipe, gestion des stocks <br> et approvisionnements.</p>
-            </div>
-            <div class="xp-info">
-               <aside class="aside-year">2002-2003</aside>
-               <h4 class="h4-coach">Magasin informatique – Téhéran</h4>
-               <p>Employé <br>
-                <strong>Missions</strong> : <br>
-                -Conseils et vente de matériel informatique. <br>
-                -Reparer logiciel </p>
-            </div>
-        </div>
-    </section>
-    <section id="formations">
+    <section id="formations" class="coloré">
       <div class="div-formation">
         <div class="div-xp" id="border-formation">
-          <h3 class="h3-div-xp">Formation</h3>
+          <h3 class="h3-div-xp">F O R M A T I O N</h3>
+          <div class="xp-info" id="border-formation">
+            <aside class="aside-year">2021</aside>
+            <h4 class="h4-coach">Developpeur web FullStack</h4>
+            <p>DigiTous Chez Konexio - <strong>Paris</strong></p>
+            <p>
+              { HTML/CSS, JavaScript / Git/ Débogage,NodeJS - Express JS, Base
+              de données, ReactJS} ;
+            </p>
+          </div>
           <div class="xp-info" id="border-formation">
             <aside class="aside-year">Mai, Juin, Juillet 2020</aside>
-            <h4 class="h4-coach">Developpeur web - DigiStart</h4>
-            <p>Chez Konexio - <strong>Paris</strong></p>
+            <h4 class="h4-coach">Developpeur web</h4>
+            <p>DigiStart - Chez Konexio - <strong>Paris</strong></p>
+            <p>{ Apprendre les bases du HTML, CSS, Javascript} ;</p>
+          </div>
+          <div class="xp-info" id="border-formation">
+            <aside class="aside-year">2019 – 2020</aside>
+            <h4 class="h4-coach">Cours de Théâtre</h4>
+            <p>
+              Université Sorbonne Nouvelle - Paris 3 - <strong>Paris</strong>
+            </p>
           </div>
           <div class="xp-info" id="border-formation">
             <aside class="aside-year">Septembre 2019 – Mars 2020</aside>
             <h4 class="h4-coach">Cours de français</h4>
-            <p>Diplôme DELF
-              niveau B1 - <strong>Paris</strong></p>
+            <p>Diplôme DELF niveau B1 - <strong>Paris</strong></p>
           </div>
           <div class="xp-info" id="border-formation">
-            <aside class="aside-year">2011</aside>
-            <h4 class="h4-coach">Microsoft certified solution expert « MCSE »</h4>
-            <p>- Université Mojtame Fanni - <strong>Téhéran</strong> </p>
+            <aside class="aside-year">2011 - 2012</aside>
+            <h4 class="h4-coach">
+              Microsoft certified solution expert « MCSE »
+            </h4>
+            <p>Université Mojtame Fanni - <strong>Téhéran</strong></p>
+            <p>{Windows XP, Network+, C++ } ;</p>
           </div>
-          <div class="xp-info" id="border-formation">
+          <div class="xp-info" style="border: none" id="border-formation">
             <aside class="aside-year">2010</aside>
             <h4 class="h4-coach">Baccalauréat</h4>
-            <p>Infographie (option :arts plastiques) <br> Nomenclature française  des niveaux de formation : <strong>IV</strong> </p>
+            <p>Infographie (option :arts plastiques)</p>
+            <p>la création d'images numériques assistée par ordinateur</p>
           </div>
-
         </div>
-
+      </div>
+    </section>
+    <section id="xp">
+      <div class="div-xp">
+        <h3 class="h3-div-xp">E X P E R I E N C E</h3>
+        <div class="xp-info">
+          <aside class="aside-year">Avril – Juin 2021</aside>
+          <h4 class="h4-coach">
+            Formateur de formation Développeur Web (Bénévole)
+          </h4>
+          <p>DigiStart Chez Konexio – Paris</p>
+        </div>
+        <div class="xp-info">
+          <aside class="aside-year">2019-2020</aside>
+          <h4 class="h4-coach">Coach sportif (Bénévole)</h4>
+          <p>Association JRS – Paris</p>
+          <p>: Gérer une équipe de 5 à 10 personnes</p>
+        </div>
+        <div class="xp-info">
+          <aside class="aside-year">2015-2017</aside>
+          <h4 class="h4-coach">Direction de la restauration – Téhéran</h4>
+          <p>Création puis direction de Noodle house (restaurant asiatique)</p>
+        </div>
+        <div class="xp-info">
+          <aside class="aside-year">2007-2015</aside>
+          <h4 class="h4-coach">Directeur de Salle de Sports – Téhéran</h4>
+          <p>
+            Employé puis directeur chez Omega <br />
+            <strong>Missions</strong> : <br />
+            - Organisation du planning de la salle, responsable du transfert des
+            liquidités entre la salle de sport et la banque.<br />
+            - Responsable de la cafétéria de la salle de sport : gestion du
+            personnel, management d’équipe, gestion des stocks <br />
+            et approvisionnements.
+          </p>
+        </div>
+        <div class="xp-info">
+          <aside class="aside-year">2002-2003</aside>
+          <h4 class="h4-coach">Magasin informatique – Téhéran</h4>
+          <p>
+            Employé <br />
+            <strong>Missions</strong> : <br />
+            -Conseils et vente de matériel informatique. <br />
+            -Reparer logiciel
+          </p>
+        </div>
       </div>
     </section>
     <footer class="coloré">
       <div class="icon">
-        <a href="mailto:amirhatam136@gmail.com" class="a-footer" title="amirhatam136@gmail.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://github.com/amirhatam" class="a-footer" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="tel:07 68 57 35 81" class="a-footer" title="07 68 57 35 81"><i class="fas fa-phone-square"></i></a>
+        <a
+          href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/"
+          class="a-footer"
+          title="Linkedin"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="mailto:amirhatam136@gmail.com"
+          class="a-footer"
+          title="amirhatam136@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://github.com/amirhatam"
+          class="a-footer"
+          title="GitHub"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="tel:07 68 57 35 81" class="a-footer" title="07 68 57 35 81"
+          ><i class="fas fa-phone-square"></i
+        ></a>
       </div>
     </footer>
-</body>
-
+  </body>
 </html>
